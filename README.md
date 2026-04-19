@@ -1,3 +1,5 @@
+<img width="1889" height="902" alt="image" src="https://github.com/user-attachments/assets/091e48b4-6bac-4e5d-8687-8f3d41c631b5" />
+
 # Portfolio Website
 
 A modern, fully-functional portfolio website built with HTML, CSS, JavaScript (frontend) and Node.js/Express (backend).

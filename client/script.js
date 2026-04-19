@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // In production, this might be your verified domain. For local development, assuming running on port 5000.
     const API_BASE = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1' 
         ? 'http://localhost:5000/api' 
-        : '/api'; // if served statically from Express
+        : 'https://personal-portfolio-server.vercel.app/api'; // Vercel backend URL
 
     // Fetch Skills
     const fetchSkills = async () => {
