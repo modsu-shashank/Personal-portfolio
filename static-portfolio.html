@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional Portfolio of a Full-Stack Engineer">
+    <title>SHASHANK REDDY - Web Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="client/style.css">
+</head>
+
+<body>
+    <div id="loader" class="loader-container">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">SHASHANK <span>REDDY</span></a>
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="mobile-menu">
+        <div class="close-btn"><i class="fas fa-times"></i></div>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="subtitle">Hello, I'm</span>
+                <h1 class="title">A Creative <br><span class="gradient-text">Web</span> Developer</h1>
+                <p class="description">I build exceptional and accessible digital experiences for web. From
+                    pixel-perfect frontends to robust backends.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Let's Talk</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-image">
+                    <!-- Placeholder or dynamic UI element -->
+                    <div class="floating-card c1"><i class="fab fa-react"></i></div>
+                    <div class="floating-card c2"><i class="fab fa-node-js"></i></div>
+                    <div class="floating-card c3"><i class="fas fa-database"></i></div>
+                    <img src="https://images.unsplash.com/photo-1555066931-4365cc14ad37?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                        alt="Coding workspace setup" />
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+            <span>Scroll Down</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About <span class="gradient-text">Me</span></h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Professional Summary</h3>
+                    <p>Entry-level Web Developer with hands-on experience in building responsive and user-focused web applications using MERN stack. Developed multiple real-world projects including a portfolio website, collaborative project-sharing platform, and a full-stack e-commerce application. Strong foundation in frontend and backend development with a passion for continuous learning and delivering scalable digital solutions.</p>
+                    
+                    <h3>Key Strengths</h3>
+                    <div class="strengths-grid">
+                        <div class="strength-item">
+                            <i class="fas fa-brain"></i>
+                            <span>Analytical thinking</span>
+                        </div>
+                        <div class="strength-item">
+                            <i class="fas fa-users"></i>
+                            <span>Team collaboration</span>
+                        </div>
+                        <div class="strength-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Quick learner</span>
+                        </div>
+                        <div class="strength-item">
+                            <i class="fas fa-sync"></i>
+                            <span>Adaptability</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2><span class="gradient-text">Education</span></h2>
+            </div>
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="edu-header">
+                        <h3>Bachelor of Technology – Computer Science Engineering</h3>
+                        <span class="edu-period">2022–2026</span>
+                    </div>
+                    <p class="edu-school">Parul University, Vadodara, Gujarat | CGPA: 7.56</p>
+                </div>
+                <div class="education-item">
+                    <div class="edu-header">
+                        <h3>XII – Intermediate</h3>
+                        <span class="edu-period">2020–2022</span>
+                    </div>
+                    <p class="edu-school">Sri Chaitanya Junior College, Medchal, Telangana | Percentage: 88.6%</p>
+                </div>
+                <div class="education-item">
+                    <div class="edu-header">
+                        <h3>X – High School</h3>
+                        <span class="edu-period">2019–2020</span>
+                    </div>
+                    <p class="edu-school">St. Mary's Vidyaniketan High School, Pregnapur, Telangana | Percentage: 98%</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>My <span class="gradient-text">Toolkit</span></h2>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h4>HTML5</h4>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Frontend</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i>
+                    <h4>CSS3</h4>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Frontend</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js-square"></i>
+                    <h4>JavaScript</h4>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Frontend</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-react"></i>
+                    <h4>React.js</h4>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Frontend</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-route"></i>
+                    <h4>React Router</h4>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Frontend</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-bolt"></i>
+                    <h4>Vite</h4>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Frontend</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3"></i>
+                    <h4>Tailwind CSS</h4>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Frontend</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-node-js"></i>
+                    <h4>Node.js</h4>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Backend</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-server"></i>
+                    <h4>Express.js</h4>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Backend</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h4>MongoDB</h4>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Database</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h4>MySQL</h4>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Database</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-git-alt"></i>
+                    <h4>Git</h4>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Tools</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-github"></i>
+                    <h4>GitHub</h4>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Tools</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-globe"></i>
+                    <h4>Netlify</h4>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Tools</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-globe"></i>
+                    <h4>Vercel</h4>
+                    <p style="font-size: 0.8rem; color: var(--text-secondary);">Tools</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Featured <span class="gradient-text">Work</span></h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Portfolio Website">
+                        <div class="project-overlay">
+                            <a href="https://portfolio-personal-01.netlify.app/" target="_blank" class="btn btn-primary" style="margin: 0; padding: 0.5rem 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>Developed a responsive portfolio website improving UI consistency and performance using React.js and Vite. Implemented backend with Node.js, Express.js, and MongoDB. Integrated feedback form and smooth UI animations.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Vite</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="ProjectHub">
+                        <div class="project-overlay">
+                            <a href="https://projecthub-mu.vercel.app/" target="_blank" class="btn btn-primary" style="margin: 0; padding: 0.5rem 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>ProjectHub</h3>
+                        <p>Built a collaborative platform for sharing development projects. Developed REST APIs using Node.js, Express.js, and MongoDB. Implemented filtering and project submissions.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="RGO - Organic Millets">
+                        <div class="project-overlay">
+                            <a href="https://sem-project-delta.vercel.app/" target="_blank" class="btn btn-primary" style="margin: 0; padding: 0.5rem 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>RGO - Organic Millets E-Commerce Website</h3>
+                        <p>Designed a full-stack e-commerce website using React.js and Tailwind CSS. Implemented shopping cart, search, filtering, and user dashboard.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">React.js</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">Express.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1448630360428-65456885c650?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Shelder - Architecture">
+                        <div class="project-overlay">
+                            <a href="https://shelder.netlify.app/" target="_blank" class="btn btn-primary" style="margin: 0; padding: 0.5rem 1rem;">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Shelder - Architecture & Interior Design Website</h3>
+                        <p>Developed a responsive website for architecture and interior design services. Designed clean UI with About, Services, and Contact sections.</p>
+                        <div class="tech-stack">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">React.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section bg-light">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In <span class="gradient-text">Touch</span></h2>
+                <p>Have a project in mind? Let's build something awesome together.</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>shashankreddy417@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h3>Location</h3>
+                            <p>Siddipet, Telangana, India</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/modsu-shashank" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/shashankreddy-/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Send Me a Message</h3>
+                    <a href="mailto:shashankreddy417@gmail.com" class="btn btn-primary btn-block">
+                        <i class="fas fa-envelope"></i> Send Email
+                    </a>
+                    <p style="text-align: center; margin-top: 1rem; color: var(--text-secondary);">
+                        Click above to open your email client
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; <span id="year"></span> SHASHANK REDDY. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/modsu-shashank" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/shashankreddy-/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // 1. Initial Loader
+            setTimeout(() => {
+                document.getElementById('loader').style.opacity = '0';
+                setTimeout(() => {
+                    document.getElementById('loader').style.display = 'none';
+                }, 500);
+            }, 1000);
+
+            // 2. Navigation Scroll Effect
+            const navbar = document.querySelector('.navbar');
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('scrolled');
+                } else {
+                    navbar.classList.remove('scrolled');
+                }
+            });
+
+            // 3. Mobile Menu Toggle
+            const hamburger = document.querySelector('.hamburger');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            const closeBtn = document.querySelector('.close-btn');
+            const mobileLinks = document.querySelectorAll('.mobile-menu a');
+
+            hamburger.addEventListener('click', () => {
+                mobileMenu.classList.add('active');
+            });
+
+            closeBtn.addEventListener('click', () => {
+                mobileMenu.classList.remove('active');
+            });
+
+            mobileLinks.forEach(link => {
+                link.addEventListener('click', () => {
+                    mobileMenu.classList.remove('active');
+                });
+            });
+
+            // 4. Set Current Year in Footer
+            document.getElementById('year').textContent = new Date().getFullYear();
+
+            // 5. Active Navigation Link on Scroll
+            const sections = document.querySelectorAll('section');
+            const navItems = document.querySelectorAll('.nav-links a');
+
+            window.addEventListener('scroll', () => {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= (sectionTop - sectionHeight / 3)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navItems.forEach(item => {
+                    item.classList.remove('active');
+                    if (item.getAttribute('href') === `#${current}`) {
+                        item.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
